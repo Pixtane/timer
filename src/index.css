@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes smooth-appear {
+  to {
+    bottom: 20px;
+    opacity: 1;
+  }
+}
+
+.animate-appear {
+  bottom: -100%;
+  animation: smooth-appear 1s ease forwards;
+}
